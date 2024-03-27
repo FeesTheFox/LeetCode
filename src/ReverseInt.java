@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
-
 public class ReverseInt {
     public int reverse(int x) {
         int reversed = 0;
