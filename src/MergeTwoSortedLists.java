@@ -14,6 +14,7 @@ public class MergeTwoSortedLists {
 
         //merge the least valuable listNode with the other one, you'll get the sorted array as the output
         if (list1.val < list2.val){
+            //puts the 1st list item, then recursively calls method again with the next item
             list1.next = mergeTwoLists(list1.next, list2);
             return list1;
         }else {
